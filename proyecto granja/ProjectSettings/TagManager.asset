@@ -7,6 +7,7 @@ TagManager:
   - Pick up
   - Item
   - item
+  - PlantManager
   layers:
   - Default
   - TransparentFX

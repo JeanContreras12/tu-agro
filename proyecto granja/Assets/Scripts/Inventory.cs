@@ -76,8 +76,9 @@ public class Inventory : MonoBehaviour
                 itemObject.SetActive(false);
                 slot[i].GetComponent<Slot>().UpdateSlot();
                 slot[i].GetComponent<Slot>().empty = false;
+                return;
             }
-            return;
+
         }
     }
 }
